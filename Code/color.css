@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+.root {
+    -fx-background-color: white;
+    -fx-font-family: 'Poppins', sans-serif;
+}
+Label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333;
+}
+Button {
+    -fx-background-color: #000000;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 8 16;
+    -fx-background-radius: 5px;
+}
+Button:hover {
+    -fx-background-color: #333333;
+    -fx-cursor: hand;
+}
+TextField, PasswordField, ComboBox {
+    -fx-background-color: transparent;
+    -fx-padding: 12px 0;
+    -fx-border-width: 0 0 2px 0;
+    -fx-border-color: grey;
+    -fx-font-size: 14px;
+    -fx-font-family: 'Poppins', sans-serif;
+}
+TextField:focused, PasswordField:focused, ComboBox:focused {
+    -fx-border-color: black;
+}
+Hyperlink {
+    -fx-text-fill: #000000;
+    -fx-font-size: 12px;
+}
+Hyperlink:hover {
+    -fx-text-fill: #333333;
+    -fx-cursor: hand;
+}
+.radio-button .label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333;
+}
+.scroll-bar:vertical {
+    -fx-background-color: transparent;
+}
+.scroll-bar .increment-button, .scroll-bar .decrement-button {
+    -fx-background-color: transparent;
+    -fx-padding: 0;
+}
+.scroll-bar .track {
+    -fx-background-color: #e0e0e0;
+}
+.scroll-bar .thumb {
+    -fx-background-color: #000000;
+}
+.question-label {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333;
+}
+.option-button {
+    -fx-font-size: 14px;
+    -fx-text-fill: #555;
+}
+.next-button {
+    -fx-background-color: #000000;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+}
+.dialog-pane {
+    -fx-background-color: #f9f9f9; 
+    -fx-border-color: #007bff;   
+    -fx-border-width: 3px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+}
+.dialog-pane .content {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333;
+    -fx-font-family: "Poppins", sans-serif;
+}
+.dialog-pane .header-panel {
+    -fx-background-color: #007bff; 
+    -fx-text-fill: white;          
+    -fx-font-size: 18px;
+    -fx-padding: 10px;
+}
+.dialog-pane .button-bar {
+    -fx-background-color: #f1f1f1; 
+    -fx-padding: 10px;
+}
+.dialog-pane .button-bar .button {
+    -fx-background-color: #007bff;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-padding: 8px 15px;
+}
+.dialog-pane .button-bar .button:hover {
+    -fx-background-color: #0056b3; 
+}
